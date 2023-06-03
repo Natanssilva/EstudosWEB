@@ -14,4 +14,6 @@ Repositório com conteúdo sobre CSS, HTML, BOOTSTRAP
       - Imagine que temos um texto em uma tag HTML H1 e quero mudar a cor da primeira letra ou da primeira linha, nesse caso utilizamos os pseudos-elementos para estilizar uma parte epescifica do elemento H1
         -  h1::first-line{color:red; font-size:60px;}
           - Nesse código, só a primeira linha vai seguir as regras atribuidas.
-   
+   - No css é possivel sobrepor uma regra com o !important do lado do atributo:
+      - Color: red !important;
+        -  Isso vai sobrepor qualquer outro color que havia sido declarado antes ou depois, logo com !important ele sobrepoe a a ordem.
