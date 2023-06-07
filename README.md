@@ -17,3 +17,15 @@ Repositório com conteúdo sobre CSS, HTML, BOOTSTRAP
    - No css é possivel sobrepor uma regra com o !important do lado do atributo:
       - Color: red !important;
         -  Isso vai sobrepor qualquer outro color que havia sido declarado antes ou depois, logo com !important ele sobrepoe a a ordem.
+ 
+ ## HTML
+   - Pra fazer download pelo html, basta usar o atributo "download" na tag <a> mas só irá funcionar se o arquivo estiver no servidor
+      -Se atribuir um valor de texto depois do atributo como por exemplo download = "foto google" esse será o nome que irá aparecer no explorer na hora de salvar o arquivo
+  - Para ser direcionado ao app para enviar um email deverá usar o dentro da tag <a> a seguinte forma:
+  - <a> href = "mailto:name@email.com">qualquer coisa </a> 
+      - Lembrando que para automatizar e enviar um email direto no click do usuário precisará de uma linguagem de programação
+  -Tambem é possivel colocar um assunto e mensagem no corpo já definidos dentro da tag <a> por exemplo:
+    - <a> href = "mailto:name@email.com?subject=Reuniao da proxima semana">qualquer coisa </a>  
+      - Esse exemplo colocará como assunto do email
+    - <a> href = "mailto:name@email.com?subject=Reuniao da proxima semana&body=Na proxima semana a reuniao será as 14h">qualquer coisa </a> 
+      - Esse exemplo manterá o assunto e adicionará uma mensagem pré definidas
