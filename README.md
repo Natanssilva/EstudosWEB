@@ -29,3 +29,6 @@ Repositório com conteúdo sobre CSS, HTML, BOOTSTRAP
       - Esse exemplo colocará como assunto do email
     - <a> href = "mailto:name@email.com?subject=Reuniao da proxima semana&body=Na proxima semana a reuniao será as 14h">qualquer coisa </a> 
       - Esse exemplo manterá o assunto e adicionará uma mensagem pré definidas
+
+  - TABELAS EM HTML:
+    -
