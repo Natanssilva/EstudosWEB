@@ -180,3 +180,71 @@ Repositório com conteúdo sobre CSS, HTML, BOOTSTRAP
             </tr>
         </tfoot>
     </table>
+  
+ - A tag <caption> antes do thead serve para colcoar um titulo na tabela onde ele ja é centralizado de forma automatica. Para estilizar a tabela, além de border no css temos o seletor border-collapse: collapse; que ajuda na estilização
+  ```
+   <table>
+     <caption>TABELA 1</caption>
+        <thead>
+            <tr> <!--Table row(linha da tabela)-->
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+                 <th>Coluna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!--Table row(linha da tabela)-->
+                <td>Coluna 1 - Linha 1</td>
+                <td>Coluna 2 - Linha 1</td>
+                <td>Coluna 3 - Linha 1</td>
+            </tr>
+            <tr> <!--Table row(linha da tabela)-->
+                <td>Coluna 1 - Linha 2</td>
+                <td>Coluna 2 - Linha 2</td>
+                <td>Coluna 3 - Linha 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Rodapé 1</td>
+                <td>Rodapé 2</td>
+                <td>Rodapé 3</td>
+            </tr>
+        </tfoot>
+    </table>
+   ```
+  
+- A tabela será mostrada da seguinte forma:
+  
+     <table>
+        <caption>TABELA 1</caption>
+        <thead>
+            <tr> <!--Table row(linha da tabela)-->
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+                 <th>Coluna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!--Table row(linha da tabela)-->
+                <td>Coluna 1 - Linha 1</td>
+                <td>Coluna 2 - Linha 1</td>
+                <td>Coluna 3 - Linha 1</td>
+            </tr>
+            <tr> <!--Table row(linha da tabela)-->
+                <td>Coluna 1 - Linha 2</td>
+                <td>Coluna 2 - Linha 2</td>
+                <td>Coluna 3 - Linha 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Rodapé 1</td>
+                <td>Rodapé 2</td>
+                <td>Rodapé 3</td>
+            </tr>
+        </tfoot>
+    </table>
+- Dentro da tag <td> podemos usar dois atributos, colspan = "x" e rowspan = "x"
+    - colspan mostra que o numero dentro das aspas significa que a célula vai ocupar x colunas
+    - rowspan na mesma lógica, significa que vai ocupar x linhas
