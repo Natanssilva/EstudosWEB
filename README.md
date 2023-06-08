@@ -31,4 +31,152 @@ Repositório com conteúdo sobre CSS, HTML, BOOTSTRAP
       - Esse exemplo manterá o assunto e adicionará uma mensagem pré definidas
 
   - TABELAS EM HTML:
-    -
+    - As tabelas em HTML ficam dentro da tag <table>
+      - A estrutura base de uma tabela consiste no seguinte código:
+         ``` 
+        <table>
+        <tr> <!--Table row(linha da tabela)-->
+            <td>Coluna 1 - Linha 1</td>
+            <td>Coluna 2 - Linha 1</td>
+            <td>Coluna 3 - Linha 1</td>
+        </tr>
+        <tr> <!--Table row(linha da tabela)-->
+            <td>Coluna 1 - Linha 2</td>
+            <td>Coluna 2 - Linha 2</td>
+            <td>Coluna 3 - Linha 2</td>
+        </tr>
+        <tr> <!--Table row(linha da tabela)-->
+            <td>Coluna 1 - Linha 3</td>
+            <td>Coluna 2 - Linha 3</td>
+            <td>Coluna 3 - Linha 3</td>
+        </tr>
+       </table> 
+       ```
+    - E ela será mostrada dessa forma: 
+  
+         <table>
+        <tr> <!--Table row(linha da tabela)-->
+            <td>Coluna 1 - Linha 1</td>
+            <td>Coluna 2 - Linha 1</td>
+            <td>Coluna 3 - Linha 1</td>
+        </tr>
+        <tr> <!--Table row(linha da tabela)-->
+            <td>Coluna 1 - Linha 2</td>
+            <td>Coluna 2 - Linha 2</td>
+            <td>Coluna 3 - Linha 2</td>
+        </tr>
+        <tr> <!--Table row(linha da tabela)-->
+            <td>Coluna 1 - Linha 3</td>
+            <td>Coluna 2 - Linha 3</td>
+            <td>Coluna 3 - Linha 3</td>
+        </tr>
+    </table>
+  - Possui algumas tags em tabela para maximizar o seu uso e também a utilizacação da linguagem javascript e estilizição com o CSS, como por exemplo a tag <thead> que é o cabeçalho da tabela e <tbody> que é o corpo da tabela
+  - Usando essas tags teremos o seguinte código:
+    ```
+    <table>
+        <thead>
+            <tr> <!--Table row(linha da tabela)-->
+                <th>Coluna 1</th>  <!--table header, tem o mesmo comportamento de um <td> mas define o conteudo como um cabeçalho de uma coluna -->
+                <th>Coluna 2</th>
+                 <th>Coluna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!--Table row(linha da tabela)-->
+                <td>Coluna 1 - Linha 1</td>
+                <td>Coluna 2 - Linha 1</td>
+                <td>Coluna 3 - Linha 1</td>
+            </tr>
+            <tr> <!--Table row(linha da tabela)-->
+                <td>Coluna 1 - Linha 2</td>
+                <td>Coluna 2 - Linha 2</td>
+                <td>Coluna 3 - Linha 2</td>
+            </tr>
+        </tbody>
+    </table>
+     ```
+  - A tabela será mostrada da seguinte maneira:
+      <table>
+        <thead>
+            <tr> <!--Table row(linha da tabela)-->
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+                 <th>Coluna 3</th>
+            </tr>
+         </thead>
+        <tbody>
+            <tr> <!--Table row(linha da tabela)-->
+                <td>Coluna 1 - Linha 1</td>
+                <td>Coluna 2 - Linha 1</td>
+                <td>Coluna 3 - Linha 1</td>
+            </tr>
+            <tr> <!--Table row(linha da tabela)-->
+                <td>Coluna 1 - Linha 2</td>
+                <td>Coluna 2 - Linha 2</td>
+                <td>Coluna 3 - Linha 2</td>
+            </tr>
+        </tbody>
+     </table>
+ - Por ultimo na estrutura base de uma tabela, temos a tag tfoot no qual é o rodapé de uma tabela
+    - O código completo ficará dessa maneira:
+      ```
+       <table>
+        <thead>
+            <tr> <!--Table row(linha da tabela)-->
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+                 <th>Coluna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!--Table row(linha da tabela)-->
+                <td>Coluna 1 - Linha 1</td>
+                <td>Coluna 2 - Linha 1</td>
+                <td>Coluna 3 - Linha 1</td>
+            </tr>
+            <tr> <!--Table row(linha da tabela)-->
+                <td>Coluna 1 - Linha 2</td>
+                <td>Coluna 2 - Linha 2</td>
+                <td>Coluna 3 - Linha 2</td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- Rodapé -->
+            <tr>
+                <td>Rodapé 1</td>
+                <td>Rodapé 2</td>
+                <td>Rodapé 3</td>
+            </tr>
+        </tfoot>
+    </table>
+    ```
+  
+    - A tabela será mostrada dessa forma:
+       <table>
+        <thead>
+            <tr> <!--Table row(linha da tabela)-->
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+                 <th>Coluna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!--Table row(linha da tabela)-->
+                <td>Coluna 1 - Linha 1</td>
+                <td>Coluna 2 - Linha 1</td>
+                <td>Coluna 3 - Linha 1</td>
+            </tr>
+            <tr> <!--Table row(linha da tabela)-->
+                <td>Coluna 1 - Linha 2</td>
+                <td>Coluna 2 - Linha 2</td>
+                <td>Coluna 3 - Linha 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Rodapé 1</td>
+                <td>Rodapé 2</td>
+                <td>Rodapé 3</td>
+            </tr>
+        </tfoot>
+    </table>
