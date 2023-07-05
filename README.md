@@ -248,3 +248,6 @@ Repositório com conteúdo sobre CSS, HTML, BOOTSTRAP
 - Dentro da tag <td> podemos usar dois atributos, colspan = "x" e rowspan = "x"
     - colspan mostra que o numero dentro das aspas significa que a célula vai ocupar x colunas
     - rowspan na mesma lógica, significa que vai ocupar x linhas
+- A tag colgroup vai agregar colunas mas apenas com intuito de aplicar estilos e deve ficar abaixo do elemento caption dentro do table
+    - Dentro do colgroup temos a tag col define que a primeira coluna da esquerda para direita será aplicada o estilo
+    - Atributo  span = "2" dentro do col, significa que o estilo será atribuido as 2 primeiras colunas 
