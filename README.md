@@ -250,4 +250,8 @@ Repositório com conteúdo sobre CSS, HTML, BOOTSTRAP
     - rowspan na mesma lógica, significa que vai ocupar x linhas
 - A tag colgroup vai agregar colunas mas apenas com intuito de aplicar estilos e deve ficar abaixo do elemento caption dentro do table
     - Dentro do colgroup temos a tag col define que a primeira coluna da esquerda para direita será aplicada o estilo
-    - Atributo  span = "2" dentro do col, significa que o estilo será atribuido as 2 primeiras colunas 
+    - Atributo  span = "2" dentro do col, significa que o estilo será atribuido as 2 primeiras colunas
+- Atributos em HTML5 sempre serão acompanhados de = " " por exemplo:
+    - atributo="x"
+- Sempre se preocupar com a parte semantica do HTML5 por causa do SEO (Search Engine Optimization)
+    - o SEO permite para que os motores de busca encontrem a sua pagina mais facilmente
